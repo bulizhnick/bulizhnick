@@ -2,7 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import ReactDOM from 'react-dom';
 import { store } from './config/redux';
-import { App } from './components/App/App';
+import { App } from './components/App/app.component';
 
 /* eslint-disable react/jsx-filename-extension */
 ReactDOM.render(

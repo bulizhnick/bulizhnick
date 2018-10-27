@@ -1,7 +1,7 @@
 import immerPlugin from '@rematch/immer';
 import { init } from '@rematch/core';
 
-import { count } from '../components/App/app.model';
+import { count } from '../store/count';
 
 const immer = immerPlugin();
 

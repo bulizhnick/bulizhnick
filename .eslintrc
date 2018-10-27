@@ -4,7 +4,8 @@
   "rules": {
     "prettier/prettier": "error",
     "import/prefer-default-export": false,
-    "no-param-reassign": "warn"
+    "no-param-reassign": "warn",
+    "prefer-const": "off"
   },
   "env": {
     "browser": true,
