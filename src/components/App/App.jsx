@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from '@reach/router';
-import { Routes } from '../../config/routes';
+import { Routes } from 'config/routes';
 
 const AppComponent = () => (
-  <React.Fragment>
+  <>
     <header>
       <Link to="/">Домашняя</Link>
       <Link to="/books">Коллекция</Link>
@@ -15,7 +15,7 @@ const AppComponent = () => (
       <Routes />
     </main>
     <footer>Футер</footer>
-  </React.Fragment>
+  </>
 );
 
 export { AppComponent };

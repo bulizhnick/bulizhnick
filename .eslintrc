@@ -5,10 +5,18 @@
     "prettier/prettier": "error",
     "import/prefer-default-export": false,
     "no-param-reassign": "warn",
-    "prefer-const": "off"
+    "prefer-const": "off",
+    "arrow-parens": "off"
   },
   "env": {
     "browser": true,
     "node": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
   }
 }
