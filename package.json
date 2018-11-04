@@ -26,6 +26,7 @@
     "not op_mini all"
   ],
   "dependencies": {
+    "@reach/router": "^1.2.1",
     "@rematch/core": "^1.0.6",
     "@rematch/immer": "^1.0.2",
     "grommet": "^2.0.0-rc",
@@ -33,6 +34,7 @@
     "husky": "^1.1.2",
     "lint-staged": "^7.3.0",
     "prettier": "^1.14.3",
+    "prop-types": "^15.6.2",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-redux": "^5.0.7",
