@@ -1,11 +1,11 @@
 import { connect } from 'react-redux';
 import { AppComponent } from './App';
 
-const stateToProps = state => ({
+const stateToProps = (state) => ({
   count: state.count.number,
 });
 
-const dispatchToProps = store => ({
+const dispatchToProps = (store) => ({
   increment: () => store.count.increment(1),
   incrementAsync: () => store.count.incrementAsync(1),
 });
